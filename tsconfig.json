@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "removeComments": true,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "@this/*": ["./*"]
+        }
+    },
+    "include": [
+        "./**/*.ts",
+        "./**/*.d.ts"
+    ],
+    "exclude": [
+        "./node_modules/**/*"
+    ]
+}
