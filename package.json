@@ -1,6 +1,6 @@
 {
     "name": "git-autoshelve",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "TFS-like autoshelving for GIT repository",
     "main": "autoshelve.js",
     "scripts": {
